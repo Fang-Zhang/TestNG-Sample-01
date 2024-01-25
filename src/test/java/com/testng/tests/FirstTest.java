@@ -18,6 +18,7 @@ public class FirstTest {
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("HYR Tutorial", Keys.ENTER);
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 		Thread.sleep(5000);
 		driver.quit();
 	}
