@@ -20,6 +20,7 @@ public class FirstTest {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getPageSource());
+		System.out.println(driver.getWindowHandle());
 		Thread.sleep(5000);
 		driver.quit();
 	}
