@@ -24,4 +24,34 @@ public class FirstTest {
 		Thread.sleep(5000);
 		driver.quit();
 	}
+	
+	@Test
+	public void TestYahoo() throws Exception {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://in.yahoo.com/");
+		driver.findElement(By.id("header-search-input")).sendKeys("HYR Tutorial", Keys.ENTER);
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getPageSource());
+		System.out.println(driver.getWindowHandle());
+		Thread.sleep(5000);
+		driver.quit();
+	}
+	
+	@Test
+	public void TestBing() throws Exception {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://bing.com/");
+		driver.findElement(By.id("sb_form_q")).sendKeys("HYR Tutorial", Keys.ENTER);
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getPageSource());
+		System.out.println(driver.getWindowHandle());
+		Thread.sleep(5000);
+		driver.quit();
+	}
 }
