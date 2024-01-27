@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.example.AppTest"/>
+      <class name="com.testng.tests.FirstTest"/>
+      <class name="com.testng.tests.OrangeHRM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
