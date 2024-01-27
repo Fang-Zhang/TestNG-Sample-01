@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-28T00:06:02 NZDT" name="DemoSuite" finished-at="2024-01-28T00:07:04 NZDT" duration-ms="62458">
+  <suite started-at="2024-01-28T00:26:54 NZDT" name="DemoSuite" finished-at="2024-01-28T00:28:05 NZDT" duration-ms="70590">
     <groups>
     </groups>
-    <test started-at="2024-01-28T00:06:02 NZDT" name="OrangeHRMLogin" finished-at="2024-01-28T00:06:24 NZDT" duration-ms="22733">
+    <test started-at="2024-01-28T00:26:54 NZDT" name="OrangeHRMLogin" finished-at="2024-01-28T00:27:21 NZDT" duration-ms="27007">
       <class name="com.testng.tests.OrangeHRM">
-        <test-method signature="LauchApp()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:06:02 NZDT" name="LauchApp" finished-at="2024-01-28T00:06:19 NZDT" duration-ms="17160" status="PASS">
+        <test-method signature="LauchApp()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:26:54 NZDT" name="LauchApp" finished-at="2024-01-28T00:27:15 NZDT" duration-ms="21185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LauchApp -->
-        <test-method signature="Login()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:06:19 NZDT" name="Login" finished-at="2024-01-28T00:06:24 NZDT" duration-ms="5237" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:27:15 NZDT" name="Login" finished-at="2024-01-28T00:27:20 NZDT" duration-ms="5294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="VerifyLogin()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:06:24 NZDT" name="VerifyLogin" finished-at="2024-01-28T00:06:24 NZDT" duration-ms="270" status="PASS">
+        <test-method signature="VerifyLogin()[pri:0, instance:com.testng.tests.OrangeHRM@51c668e3]" started-at="2024-01-28T00:27:20 NZDT" name="VerifyLogin" finished-at="2024-01-28T00:27:21 NZDT" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
       </class> <!-- com.testng.tests.OrangeHRM -->
     </test> <!-- OrangeHRMLogin -->
-    <test started-at="2024-01-28T00:06:24 NZDT" name="OrangeHRMMyinfo" finished-at="2024-01-28T00:06:52 NZDT" duration-ms="27758">
+    <test started-at="2024-01-28T00:27:21 NZDT" name="OrangeHRMMyinfo" finished-at="2024-01-28T00:27:52 NZDT" duration-ms="30961">
       <class name="com.testng.tests.OrangeHRM">
-        <test-method signature="LauchApp()[pri:0, instance:com.testng.tests.OrangeHRM@4b29d1d2]" started-at="2024-01-28T00:06:24 NZDT" name="LauchApp" finished-at="2024-01-28T00:06:40 NZDT" duration-ms="15870" status="PASS">
+        <test-method signature="LauchApp()[pri:0, instance:com.testng.tests.OrangeHRM@1349883]" started-at="2024-01-28T00:27:21 NZDT" name="LauchApp" finished-at="2024-01-28T00:27:40 NZDT" duration-ms="19073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LauchApp -->
-        <test-method signature="Login()[pri:0, instance:com.testng.tests.OrangeHRM@4b29d1d2]" started-at="2024-01-28T00:06:40 NZDT" name="Login" finished-at="2024-01-28T00:06:46 NZDT" duration-ms="5275" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.testng.tests.OrangeHRM@1349883]" started-at="2024-01-28T00:27:40 NZDT" name="Login" finished-at="2024-01-28T00:27:45 NZDT" duration-ms="5279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="NavigateToMyInfo()[pri:0, instance:com.testng.tests.OrangeHRM@4b29d1d2]" started-at="2024-01-28T00:06:46 NZDT" name="NavigateToMyInfo" finished-at="2024-01-28T00:06:52 NZDT" duration-ms="6378" status="PASS">
+        <test-method signature="NavigateToMyInfo()[pri:0, instance:com.testng.tests.OrangeHRM@1349883]" started-at="2024-01-28T00:27:45 NZDT" name="NavigateToMyInfo" finished-at="2024-01-28T00:27:52 NZDT" duration-ms="6376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToMyInfo -->
-        <test-method signature="VerifyMyInfo()[pri:0, instance:com.testng.tests.OrangeHRM@4b29d1d2]" started-at="2024-01-28T00:06:52 NZDT" name="VerifyMyInfo" finished-at="2024-01-28T00:06:52 NZDT" duration-ms="218" status="PASS">
+        <test-method signature="VerifyMyInfo()[pri:0, instance:com.testng.tests.OrangeHRM@1349883]" started-at="2024-01-28T00:27:52 NZDT" name="VerifyMyInfo" finished-at="2024-01-28T00:27:52 NZDT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMyInfo -->
       </class> <!-- com.testng.tests.OrangeHRM -->
     </test> <!-- OrangeHRMMyinfo -->
-    <test started-at="2024-01-28T00:06:52 NZDT" name="TestGoogle" finished-at="2024-01-28T00:07:04 NZDT" duration-ms="11896">
+    <test started-at="2024-01-28T00:27:52 NZDT" name="TestGoogle" finished-at="2024-01-28T00:28:05 NZDT" duration-ms="12596">
       <class name="com.testng.tests.FirstTest">
-        <test-method signature="TestGoogle()[pri:0, instance:com.testng.tests.FirstTest@3f191845]" started-at="2024-01-28T00:06:52 NZDT" name="TestGoogle" finished-at="2024-01-28T00:07:04 NZDT" duration-ms="11889" status="PASS">
+        <test-method signature="TestGoogle()[pri:0, instance:com.testng.tests.FirstTest@3ba987b8]" started-at="2024-01-28T00:27:52 NZDT" name="TestGoogle" finished-at="2024-01-28T00:28:05 NZDT" duration-ms="12593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGoogle -->
