@@ -12,34 +12,37 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class OrangeHRM {
 	WebDriver driver;
 	@Test
-	public void LauchApp() {
+	public void LauchApp() throws Exception {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		Thread.sleep(5000);
 	}
 	
 	@Test
-	public void Login() {
-		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
-		driver.findElement(By.id("btnLogin")).click();
+	public void Login() throws Exception {
+		driver.findElement(By.name("username")).sendKeys("Admin");
+		driver.findElement(By.name("password")).sendKeys("admin123");
+		driver.findElement(By.className("orangehrm-login-button")).click();
+		Thread.sleep(5000);
 	}
 	
 	@Test
-	public void NavigateToMyInfo() {
-		driver.findElement(By.id("menu_pim_viewMyDetails")).click();
+	public void NavigateToMyInfo() throws Exception {
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a/span")).click();
+		Thread.sleep(5000);
 	}
 	
 	@Test
 	public void VerifyMyInfo() {
-		System.out.println(driver.findElement(By.id("employ-details")).isDisplayed());
+		System.out.println(driver.findElement(By.className("orangehrm-edit-employee-content")).isDisplayed());
 	    driver.quit();
 	}
 	
 	@Test
 	public void VerifyLogin() {
-		WebElement ele = driver.findElement(By.id("welcome"));
+		WebElement ele = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p"));
 		System.out.println(ele.isDisplayed());
 		System.out.println(ele.getText());
 		driver.quit();
@@ -47,13 +50,8 @@ public class OrangeHRM {
 	
 	@Test
 	public void Logout() {
-		driver.findElement(By.id("welcome")).click();
-		driver.findElement(By.linkText("Logout")).click();
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p")).click();
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]/a")).click();
 		driver.quit();
-	}
-	
-	@Test
-	public void Test1() {
-		System.out.println("Test1");
 	}
 }
