@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>testng1112222</name>
+	<name>TestNG</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,11 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< HEAD
 			<id>1706381370717</id>
-=======
-			<id>1706354532012</id>
->>>>>>> branch 'TestNG' of https://github.com/Fang-Zhang/TestNG-Sample-01.git
 			<name></name>
 			<type>30</type>
 			<matcher>
