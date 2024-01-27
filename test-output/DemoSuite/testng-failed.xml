@@ -11,15 +11,4 @@
       </class> <!-- com.testng.tests.OrangeHRM -->
     </classes>
   </test> <!-- OrangeHRMLogin(failed) -->
-  <test thread-count="5" name="OrangeHRMMyinfo(failed)">
-    <classes>
-      <class name="com.testng.tests.OrangeHRM">
-        <methods>
-          <include name="NavigateToMyInfo"/>
-          <include name="VerifyMyInfo"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- com.testng.tests.OrangeHRM -->
-    </classes>
-  </test> <!-- OrangeHRMMyinfo(failed) -->
 </suite> <!-- Failed suite [DemoSuite] -->
