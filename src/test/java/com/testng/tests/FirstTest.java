@@ -1,6 +1,7 @@
 package com.testng.tests;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.By;
