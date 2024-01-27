@@ -1,7 +1,8 @@
 package com.testng.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.By;
@@ -18,6 +19,14 @@ public class FirstTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("HYR Tutorial", Keys.ENTER);
+		String expectedTitle = "HYR Tutorial - Google Search";
+		String actualTitle = driver.getTitle();
+		if (actualTitle.equals(expectedTitle)) {
+			System.out.println("Test Passed!");
+		} else {
+			System.out.println("Test Failed!");
+		}
+		Assert.assertEquals(actualTitle, expectedTitle);
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		Thread.sleep(5000);
