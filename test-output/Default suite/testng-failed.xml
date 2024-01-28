@@ -5,7 +5,11 @@
     <classes>
       <class name="com.testng.tests.OrangeHRM">
         <methods>
-          <include name="LauchApp"/>
+          <include name="NavigateToMyInfo"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyMyInfo"/>
+          <include name="VerifyLogin"/>
+          <include name="InitialiseBrowser"/>
         </methods>
       </class> <!-- com.testng.tests.OrangeHRM -->
     </classes>
