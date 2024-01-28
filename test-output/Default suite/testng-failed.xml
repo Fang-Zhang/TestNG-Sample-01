@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.tests.FirstTest">
+      <class name="com.testng.tests.OrangeHRM">
         <methods>
-          <include name="TestFacebook"/>
+          <include name="NavigateToMyInfo"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyMyInfo"/>
+          <include name="VerifyLogin"/>
+          <include name="InitialiseBrowser"/>
         </methods>
-      </class> <!-- com.testng.tests.FirstTest -->
+      </class> <!-- com.testng.tests.OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
