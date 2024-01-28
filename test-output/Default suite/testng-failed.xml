@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.tests.OrangeHRM">
+      <class name="com.testng.tests.FirstTest">
         <methods>
-          <include name="LauchApp"/>
+          <include name="TestFacebook"/>
         </methods>
-      </class> <!-- com.testng.tests.OrangeHRM -->
+      </class> <!-- com.testng.tests.FirstTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
