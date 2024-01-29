@@ -3,7 +3,7 @@ package com.testng.tests;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
-@Ignore
+//@Ignore
 public class IgnoreDemo {
 	@Ignore
 	@Test
