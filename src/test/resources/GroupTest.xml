@@ -11,6 +11,7 @@
 		</groups>
 		<classes>
 			<class name="com.testing.groupTest.GroupTest01" />
+			<class name="com.testing.groupTest.GroupTest02" />
 		</classes>
 	</test>
 </suite>

@@ -18,5 +18,10 @@ public class GroupTest02 {
 	public void test06() {
 		System.out.println("GoupTest02.test06()");
 	}
+	
+	@Test
+	public void test07() {
+		System.out.println("GoupTest02.test07()");
+	}
 
 }
