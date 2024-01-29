@@ -8,6 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OrangeHRM {
@@ -24,12 +27,12 @@ public class OrangeHRM {
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
-			driver = new ChromeDriver();
+			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			break;
-		case "ie":
-			WebDriverManager.iedriver().setup();
-			driver = new ChromeDriver();
+		case "safari":
+			WebDriverManager.safaridriver().setup();
+			driver = new SafariDriver();
 			driver.manage().window().maximize();
 			break;
 		default:
@@ -51,11 +54,12 @@ public class OrangeHRM {
 		Thread.sleep(10000);
 	}
 
+	@Parameters({ "username", "password" })
 	@Test
-	public void Login() throws Exception {
+	public void Login(String userName, String passWord) throws Exception {
 		System.out.println("Login");
-		driver.findElement(By.name("username")).sendKeys("Admin");
-		driver.findElement(By.name("password")).sendKeys("admin123");
+		driver.findElement(By.name("username")).sendKeys(userName);
+		driver.findElement(By.name("password")).sendKeys(passWord);
 		driver.findElement(By.className("orangehrm-login-button")).click();
 		Thread.sleep(5000);
 	}
