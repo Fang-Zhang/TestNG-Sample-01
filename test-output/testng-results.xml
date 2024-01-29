@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T14:27:19 NZDT" name="DemoSuite" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="147">
+  <suite started-at="2024-01-29T14:51:41 NZDT" name="DemoSuite" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="355">
     <groups>
     </groups>
-    <test started-at="2024-01-29T14:27:19 NZDT" name="FlightBooking" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="147">
+    <test started-at="2024-01-29T14:51:41 NZDT" name="FlightBooking" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="355">
       <class name="com.testng.tests.FlightBooking">
-        <test-method signature="Signup()[pri:0, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:27:19 NZDT" name="Signup" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="18" status="PASS">
+        <test-method signature="Signup()[pri:1, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:51:42 NZDT" name="Signup" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method signature="Login()[pri:0, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:27:19 NZDT" name="Login" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="SearchFlight()[pri:0, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:27:19 NZDT" name="SearchFlight" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="3" status="PASS">
+        <test-method signature="SearchFlight()[pri:3, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:51:42 NZDT" name="SearchFlight" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchFlight -->
-        <test-method signature="BookFlight()[pri:0, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:27:19 NZDT" name="BookFlight" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BookFlight -->
-        <test-method signature="Logout()[pri:0, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:27:19 NZDT" name="Logout" finished-at="2024-01-29T14:27:19 NZDT" duration-ms="2" status="PASS">
+        <test-method signature="Logout()[pri:5, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:51:42 NZDT" name="Logout" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
+        <test-method signature="Login()[pri:6, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:51:42 NZDT" name="Login" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="BookFlight()[pri:9, instance:com.testng.tests.FlightBooking@59505b48]" started-at="2024-01-29T14:51:42 NZDT" name="BookFlight" finished-at="2024-01-29T14:51:42 NZDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight -->
       </class> <!-- com.testng.tests.FlightBooking -->
     </test> <!-- FlightBooking -->
   </suite> <!-- DemoSuite -->
