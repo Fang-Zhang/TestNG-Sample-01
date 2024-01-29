@@ -12,7 +12,10 @@
 					<include name="Logout" />
 				</methods>
 			</class>
+			<class name="com.testng.tests.Caculation">
+			</class>
 		</classes>
 	</test> <!--
 	Test -->
-</suite> <!-- Suite -->
+</suite> <!--
+Suite -->
