@@ -9,7 +9,7 @@ public class FlightBooking {
 		System.out.println("Signup");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=6)
 	public void Login() {
 		System.out.println("Login");
 	}
@@ -19,7 +19,7 @@ public class FlightBooking {
 		System.out.println("SearchFlight");
 	}
 	
-	@Test(priority=4)
+	@Test(priority=9)
 	public void BookFlight() {
 		System.out.println("BookFlight");
 	}
