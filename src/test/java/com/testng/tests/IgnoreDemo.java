@@ -3,6 +3,7 @@ package com.testng.tests;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+@Ignore
 public class IgnoreDemo {
 	@Ignore
 	@Test
@@ -10,7 +11,6 @@ public class IgnoreDemo {
 		System.out.println("test1");
 	}
 
-	@Ignore
 	@Test(enabled = true)
 	public void test2() {
 		System.out.println("test2");
