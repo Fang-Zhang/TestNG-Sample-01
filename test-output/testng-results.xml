@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="5" passed="0" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T16:45:39 NZDT" name="Default suite" finished-at="2024-01-29T16:45:39 NZDT" duration-ms="16">
+  <suite started-at="2024-01-30T08:22:46 NZDT" name="GroupTestSuite" finished-at="2024-01-30T08:22:46 NZDT" duration-ms="79">
     <groups>
+      <group name="functional">
+        <method signature="GroupTest01.test02()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" name="test02" class="com.testing.groupTest.GroupTest01"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="GroupTest01.test02()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" name="test02" class="com.testing.groupTest.GroupTest01"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupTest01.test01()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" name="test01" class="com.testing.groupTest.GroupTest01"/>
+        <method signature="GroupTest01.test02()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" name="test02" class="com.testing.groupTest.GroupTest01"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupTest01.test02()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" name="test02" class="com.testing.groupTest.GroupTest01"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-01-29T16:45:39 NZDT" name="Default test" finished-at="2024-01-29T16:45:39 NZDT" duration-ms="16">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2024-01-30T08:22:46 NZDT" name="GroupTest" finished-at="2024-01-30T08:22:46 NZDT" duration-ms="79">
+      <class name="com.testing.groupTest.GroupTest01">
+        <test-method signature="test01()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" started-at="2024-01-30T08:22:46 NZDT" name="test01" finished-at="2024-01-30T08:22:46 NZDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:com.testing.groupTest.GroupTest01@20ccf40b]" started-at="2024-01-30T08:22:46 NZDT" name="test02" finished-at="2024-01-30T08:22:46 NZDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+      </class> <!-- com.testing.groupTest.GroupTest01 -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- GroupTestSuite -->
 </testng-results>
