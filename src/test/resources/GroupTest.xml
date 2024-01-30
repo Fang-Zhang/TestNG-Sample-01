@@ -5,8 +5,19 @@
 		value="https://opensource-demo.orangehrmlive.com/" />
 	<test name="GroupTest">
 		<groups>
-			<run>
+			<define name="dailyBuild">
+				<include name="sanity" />
+				<include name="functional" />
+			</define>
+			<define name="weeklyBuild">
 				<include name="smoke" />
+				<include name="sanity" />
+				<include name="functional" />
+				<include name="regression" />
+			</define>
+			<run>
+				<include name="weeklyBuild" />
+				<!-- <include name="all" /> -->
 			</run>
 		</groups>
 		<classes>
